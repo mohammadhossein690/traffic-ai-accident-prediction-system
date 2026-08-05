@@ -10,3 +10,4 @@ pillow
 scipy
 plotly
 nltk 
+fastapi
