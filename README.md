@@ -53,7 +53,7 @@ The goal of this project is to analyze traffic accident data and provide AI-base
 
 - CNN model for traffic image classification
 - NLP model for accident severity prediction
-- ML regression/classification pipeline for incident duration prediction
+- ML XGBoost pipeline for incident duration prediction
 
 ### Classes / Outputs
 
