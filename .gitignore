@@ -1,0 +1,40 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+
+# Large Dataset
+dataset/US_Accidents_500k.csv
+dataset/ccih/
+
+# Trained Models
+models/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
