@@ -1,40 +1,60 @@
+# =========================
 # Virtual Environment
+# =========================
 .venv/
 venv/
 env/
 
+# =========================
 # Python Cache
+# =========================
 __pycache__/
 *.py[cod]
 *.pyo
 
-# VS Code
+# =========================
+# IDE / Editors
+# =========================
 .vscode/
-
-# JetBrains
 .idea/
 
+# =========================
 # Jupyter
+# =========================
 .ipynb_checkpoints/
 
+# =========================
 # OS Files
+# =========================
 .DS_Store
 Thumbs.db
 
+# =========================
 # Logs
+# =========================
 *.log
 
+# =========================
 # Environment Variables
+# =========================
 .env
 
-# Large Dataset
+# =========================
+# Large Datasets
+# =========================
 dataset/US_Accidents_500k.csv
 dataset/ccih/
 
-# Trained Models
-models/
-*.pkl
-*.joblib
-*.pt
-*.pth
-*.onnx
+# =========================
+# Keep Required Production Models
+# =========================
+# Do NOT ignore models required by FastAPI.
+# The API needs these files for inference on Render/GitHub.
+# models/
+# *.pkl
+# *.joblib
+# *.pt
+# *.pth
+# *.onnx
+# *.h5
+# *.keras
