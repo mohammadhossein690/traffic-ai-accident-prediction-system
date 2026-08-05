@@ -51,9 +51,10 @@ The goal of this project is to analyze traffic accident data and provide AI-base
 
 ### Models
 
-- CNN model for traffic image classification
-- NLP model for accident severity prediction
-- ML XGBoost pipeline for incident duration prediction
+- **CNN Traffic Classifier** — Detects accident vs. normal traffic images.
+- **NLP Severity Predictor** — Predicts accident severity from incident text.
+- **XGBoost Duration Estimator** — Estimates incident duration from structured features.
+
 
 ### Classes / Outputs
 
